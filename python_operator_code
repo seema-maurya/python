@@ -1,0 +1,121 @@
+#1. Write a program for assignment operators and explain each
+# Assignment Operators
+x = 10  # Simple assignment
+y = 5   # Simple assignment
+
+# Using +=
+x += 5  # x = x + 5
+print("After x += 5, x =", x)  # x is now 15
+
+# Using -=
+y -= 2  # y = y - 2
+print("After y -= 2, y =", y)  # y is now 3
+
+# Using *=
+x *= 2  # x = x * 2
+print("After x *= 2, x =", x)  # x is now 30
+
+# Using /=
+y /= 2  # y = y / 2
+print("After y /= 2, y =", y)  # y is now 1.5
+
+# Using %=
+x %= 7  # x = x % 7
+print("After x %= 7, x =", x)  # x is now 2
+
+# Explanation of Assignment Operators:
+
+ # =: Assigns the value on the right to the variable on the left.
+# +=: Adds the right operand to the left operand and assigns the result to the left operand.
+# -=: Subtracts the right operand from the left operand and assigns the result to the left operand.
+# *=: Multiplies the left operand by the right operand and assigns the result to the left operand.
+# /=: Divides the left operand by the right operand and assigns the result to the left operand.
+# %=: Takes the modulus using two operands and assigns the result to the left operand.
+
+# 2.  Write a program for arithmatic , logical , membership operators and explain use of each
+# Arithmetic Operators
+a = 10
+b = 5
+
+print("Arithmetic Operations:")
+print("a + b =", a + b)  # Addition
+print("a - b =", a - b)  # Subtraction
+print("a * b =", a * b)  # Multiplication
+print("a / b =", a / b)  # Division
+print("a % b =", a % b)  # Modulus
+print("a ** b =", a ** b)  # Exponentiation
+print("a // b =", a // b)  # Floor Division
+
+# Logical Operators
+x = True
+y = False
+
+print("\nLogical Operations:")
+print("x and y =", x and y)  # Logical AND
+print("x or y =", x or y)    # Logical OR
+print("not x =", not x)      # Logical NOT
+
+# Membership Operators
+list_example = [1, 2, 3, 4, 5]
+
+print("\nMembership Operations:")
+print("2 in list_example:", 2 in list_example)  # Checks if 2 is in the list
+print("10 not in list_example:", 10 not in list_example)  # Checks if 10 is not in the list
+
+# 3.  Calculate the area of a circle.
+import math
+
+radius = float(input("Enter the radius of the circle: "))
+area_circle = math.pi * (radius ** 2)
+print("Area of the circle is:", area_circle)
+
+# 4. Calculate the area of a triangle.
+base = float(input("Enter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+area_triangle = (base * height) / 2
+print("Area of the triangle is:", area_triangle)
+
+# 5.  Calculate the area of a rectangle.
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+area_rectangle = length * width
+print("Area of the rectangle is:", area_rectangle)
+
+# 6.  Calculate the area of a square.
+side = float(input("Enter the side of the square: "))
+area_square = side ** 2
+print("Area of the square is:", area_square)
+
+Outputs: 
+After x += 5, x = 15
+After y -= 2, y = 3
+After x *= 2, x = 30
+After y /= 2, y = 1.5
+After x %= 7, x = 2
+Arithmetic Operations:
+a + b = 15
+a - b = 5
+a * b = 50
+a / b = 2.0
+a % b = 0
+a ** b = 100000
+a // b = 2
+
+Logical Operations:
+x and y = False
+x or y = True
+not x = False
+
+Membership Operations:
+2 in list_example: True
+10 not in list_example: True
+Enter the radius of the circle: 5
+Area of the circle is: 78.53981633974483
+Enter the base of the triangle: 4
+Enter the height of the triangle: 7
+Area of the triangle is: 14.0
+Enter the length of the rectangle: 3
+Enter the width of the rectangle: 7
+Area of the rectangle is: 21.0
+Enter the side of the square: 5
+Area of the square is: 25.0
